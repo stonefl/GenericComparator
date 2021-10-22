@@ -27,7 +27,7 @@ import java.util.List;
  * by <a href="http://myjeeva.com/generic-comparator-in-java.html">myjeeva
  * blog</a>.
  * 
- * @author <a href="mailto:leifeng@fedex.com">Lei Feng 5004756</a>
+ * @author <a href="mailto:lfengstone@gmail.com">Lei Feng</a>
  * 
  */
 public class GenericComparator implements Comparator<Object> {
