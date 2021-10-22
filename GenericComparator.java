@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.List;
 
 /**
-<<<<<<< HEAD:GenericComparator.java
  * A generic comparator class to sort collection of elements in <code> Collections.sort()</code>:.
  * <br> - For a collection of primitive data use <code>Collections.sort(aList, new GenericComparator(true/false));</code>
  * <br> - For a collection of user defined objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName"));</code>
@@ -41,7 +40,6 @@ import java.util.List;
  * blog</a>.
  * 
  * @author <a href="mailto:lfengstone@gmail.com">Lei Feng</a>
->>>>>>> b5ff66be03778a2dc4dbc1953163761cf1b55d7f:src/GenericComparator.java
  * 
  */
 public class GenericComparator implements Comparator<Object> {
