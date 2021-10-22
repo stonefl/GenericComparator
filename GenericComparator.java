@@ -8,15 +8,15 @@ import java.util.List;
 /**
  * A generic comparator class to sort collection of elements in <code> Collections.sort()</code>:.
  * <br> - For a collection of primitive data use <code>Collections.sort(aList, new GenericComparator(true/false));</code>
- * <br> - For a collection of objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName"));</code>
- * <br> - For a collection of objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName", "anotherFieldName"));</code>
- * <br> - For a collection of objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName.subFieldName", "anotherFieldName"));</code>
- * <br> - For a collection of objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName.subFieldName", "anotherFieldName.subFeildName"));</code>
+ * <br> - For a collection of user defined objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName"));</code>
+ * <br> - For a collection of user defined objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName", "anotherFieldName"));</code>
+ * <br> - For a collection of user defined objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName.subFieldName", "anotherFieldName"));</code>
+ * <br> - For a collection of user defined objects use <code>Collections.sort(aList, new GenericComparator(true/false, "fieldName.subFieldName", "anotherFieldName.subFeildName"));</code>
  * <p>
  *  This class is inspired and adopted from the GenericComparator class developed by
  *    <a href="http://myjeeva.com/generic-comparator-in-java.html">myjeeva blog</a>.
  *    
- * @author <a href="mailto:leifeng@fedex.com">Lei Feng 5004756</a>
+ * @author <a href="mailto:lfengstone@gmail.com">Lei Feng </a>
  * 
  */
 public class GenericComparator implements Comparator<Object> {
